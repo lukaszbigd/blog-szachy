@@ -15,7 +15,6 @@
             </div>
         </div>
         <h1 class="headline">Blog o tematyce szachów</h1>
-
     </header>
     <main>
 
