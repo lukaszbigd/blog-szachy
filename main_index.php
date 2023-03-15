@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Debiutex</title>
-    <link rel="stylesheet" type="text/css" href="./assets/main_ind_style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/main_index_style.css">
 </head>
 
 <body>
@@ -17,7 +18,9 @@
         <h1 class="headline">Blog o tematyce szachów</h1>
     </header>
     <main>
-
+            <?php
+                require_once "wyswietlanie.php"
+            ?>
     </main>
     <script>
         var list = document.querySelector('.list');
@@ -31,4 +34,5 @@
 
     </script>
 </body>
+
 </html>

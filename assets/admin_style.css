@@ -1,0 +1,92 @@
+body {
+    background-image: url(szachownica.png);
+    margin: 0;
+    font-family: helvetica;
+}
+
+header {
+    background-color: #070504;
+    color: white;
+    padding: 20px;
+    max-width: 10%;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: thick double #fff;
+    border-left-style: none;
+    border-top-style: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #363636;
+}
+
+.headline {
+    font-family: helvetica;
+    font-weight: bold;
+    text-align: center;
+}
+
+#add-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 50px 0 rgba(0, 0, 0, 0.4);
+}
+#adm-form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 50px 0 rgba(0, 0, 0, 0.4);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.paragraph{
+    font-weight: bold;
+}
+
+#tytul, #content, #email, #post {
+    padding: 10px;
+    border: none;
+    border: 2px solid #ccc;
+}
+#pow{
+    text-decoration: underline;
+}
+input[type="submit"] {
+    padding: 10px;
+    background-color: #363636;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
