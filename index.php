@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Debiutex</title>
-    <link rel="stylesheet" type="text/css" href="./assets/main_ind_style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/index.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     </header>
     <main>
         <?php
-        require_once "wyswietlanie.php"
+        require_once "postshowing.php"
         ?>
     </main>
     <script>
