@@ -18,7 +18,7 @@
     </header>
     <main>
         <?php
-        require_once "deletewpis.php"
+        require_once "delete.php"
             ?>
     </main>
     <script>
