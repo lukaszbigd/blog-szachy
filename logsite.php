@@ -28,5 +28,5 @@
 </body>
 
 <?php
-require_once "Logowanie.php";   
+require_once "logscript.php";   
 ?>
