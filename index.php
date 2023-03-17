@@ -17,7 +17,7 @@
     </header>
     <main>
         <?php
-        require_once "postshowing.php"
+        require_once "posts_showing.php"
         ?>
     </main>
     <script>
